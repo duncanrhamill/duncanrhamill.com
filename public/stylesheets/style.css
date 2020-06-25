@@ -1,0 +1,279 @@
+body {
+	margin: 0;
+	font-family: "Roboto Mono";
+    font-size: 1.3vw;
+    background-color: #454545;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+  	color: rgba(180.00000447034836, 126.00000008940697, 54.00000058114529, 1) !important;
+}
+
+.accent {
+	color: rgba(180.00000447034836, 126.00000008940697, 54.00000058114529, 1);
+}
+
+.text-subdued {
+    color: #454545;
+    font-weight: 300;
+}
+
+.text-subdued-white {
+    color: #eeeeee;
+    font-weight: 300;
+}
+
+.heading {
+    color: rgba(180.00000447034836, 126.00000008940697, 54.00000058114529, 1);
+    font-size: 3vw;
+    font-family: "Roboto Slab";
+    padding-bottom: 2vw;
+}
+
+.white {
+    color: white;
+}
+
+.subheading {
+
+}
+
+.subsubheading {
+    color: #454545;
+}
+
+.quote {
+    color: rgba(180.00000447034836, 126.00000008940697, 54.00000058114529, 1);
+    font-style: italic;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+p {
+    margin: 0;
+}
+
+.vspacer-1 {
+    margin-top: 2vw;
+}
+.vspacer-2 {
+    margin-top: 5vw;
+}
+
+#splash {
+	width: 100%;
+	padding-top: 56.25%;
+	background-image: url("../images/mars_yard.jpg");
+    background-size: cover;
+    margin-bottom: -4vh;
+}
+
+#title-box {
+	position: absolute;
+	top: -1.5%;
+	left: 0;
+	width: 61%;
+	padding-top: 23%;
+	background-color: white;
+	transform: skewY(-1.5deg);
+}
+
+#title-box span {
+	transform: skewY(1.5deg);
+}
+#title-box #nav {
+	transform: skewY(1.5deg);
+}
+
+#title {
+	position: absolute;
+	top: 10%;
+	left: 7.5%;
+	font-family: "Roboto Slab";
+	font-size: 4vw;
+}
+
+#subtitle {
+	position: absolute;
+	top: 35%;
+	left: 7.5%;
+	font-style: italic;
+	font-weight: 300;
+}
+
+#nav {
+	position: absolute;
+	top: 65%;
+	left: 7.5%;
+}
+
+#nav a {
+	font-size: 1.7vw;
+    vertical-align: middle;
+    color: #454545
+}
+
+#nav #nav_block {
+	background-color: #454545;
+	width: 2px;
+	height: 2vw;
+	display: inline-block;
+	margin-left: 0.5vw;
+	margin-right: 0.5vw;
+	vertical-align: middle;
+}
+
+#education {
+    background-color: white;
+    transform: skewY(-1.5deg);
+    width: 100%;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+#ed-inner {
+    transform: skewY(1.5deg);
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#ip {
+    margin: auto;
+    width: 80%;
+}
+
+#modules {
+    display:grid;
+    width: 105%;
+    margin-left: 2vw;
+    grid-template-columns: 8% auto 6% 8% auto;
+    grid-template-rows: auto auto auto auto auto;
+}
+
+#modules img {
+    width: 100%;
+    filter: invert(57%) sepia(9%) saturate(3040%) hue-rotate(354deg) brightness(90%) contrast(87%);
+}
+
+#modules img {
+    align-self: center;
+}
+#modules div {
+    padding-left: 1vw;
+    align-self: center;
+}
+#modules div .subheading {
+    padding-bottom: 0.5vw;
+}
+
+#mod-1-img {
+    grid-column: 1;
+}
+#mod-1-div {
+    grid-column: 2;
+}
+
+#mod-2-img {
+    grid-column: 4;
+}
+#mod-2-div {
+    grid-column: 5;
+}
+
+#mod-space-1 {
+    grid-row: 2;
+    grid-column: span;
+}
+
+#mod-3-img {
+    grid-column: 1;
+    grid-row: 3;
+}
+#mod-3-div {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+#mod-4-img {
+    grid-column: 4;
+    grid-row: 3;
+}
+#mod-4-div {
+    grid-column: 5;
+    grid-row: 3;
+}
+
+#mod-space-2 {
+    grid-row: 4;
+    grid-column: span;
+}
+
+#mod-5-img {
+    grid-column: 1;
+    grid-row: 5;
+}
+#mod-5-div {
+    grid-column: 2;
+    grid-row: 5;
+}
+
+#mod-6-img {
+    grid-column: 4;
+    grid-row: 5;
+}
+#mod-6-div {
+    grid-column: 5;
+    grid-row: 5;
+}
+
+#experience {
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+#exm-grid {
+    grid-template-columns: 49% 2% 49%;
+    grid-template-rows: auto;
+    display: grid;
+}
+
+#exm-vid {
+    grid-column: 1;
+    grid-row: 1;
+    width: 100%;
+    padding-top: 56.25%;
+    position: relative;
+}
+
+#exm-vid iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#exm-vid p {
+    position: relative;
+    text-align: right;
+    width: 100%;
+}
+
+#exm-vid a {
+    color: #eeeeee;
+}
+
+#exm-grid iframe {
+    width: 100%;
+    height: 100%;
+}
+
+#exm-text {
+    grid-column: 3;
+    grid-row: 1;
+}
