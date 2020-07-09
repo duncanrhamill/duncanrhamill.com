@@ -127,7 +127,7 @@ p {
 	vertical-align: middle;
 }
 
-#education {
+.card {
     background-color: white;
     transform: skewY(-1.5deg);
     width: 100%;
@@ -135,7 +135,7 @@ p {
     padding-bottom: 5vh;
 }
 
-#ed-inner {
+.card-inner {
     transform: skewY(1.5deg);
     padding-left: 15%;
     padding-right: 15%;
@@ -276,4 +276,16 @@ p {
 #exm-text {
     grid-column: 3;
     grid-row: 1;
+}
+
+#exm-text li {
+    color: white;
+    font-weight: 300;
+    list-style-type: none;
+    text-indent: -0.6em;
+}
+
+#exm-text li:before {
+    content: "-";
+    text-indent: -1em;
 }
