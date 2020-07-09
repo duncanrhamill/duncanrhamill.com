@@ -10,7 +10,7 @@ a {
 }
 
 a:hover {
-  	color: rgba(180.00000447034836, 126.00000008940697, 54.00000058114529, 1) !important;
+  	color: rgba(180.00000447034836, 126.00000008940697, 54.00000058114529, 1);
 }
 
 .accent {
@@ -115,6 +115,10 @@ p {
 	font-size: 1.7vw;
     vertical-align: middle;
     color: #454545
+}
+
+#nav a:hover {
+    color: rgba(180.00000447034836, 126.00000008940697, 54.00000058114529, 1);
 }
 
 #nav #nav_block {
@@ -288,4 +292,80 @@ p {
 #exm-text li:before {
     content: "-";
     text-indent: -1em;
+}
+
+#ort-grid {
+    display: grid;
+    grid-template-columns: 59% 2% 39%;
+    grid-template-rows: auto;
+}
+
+#ort-text {
+    grid-column: 1;
+}
+
+#ort-text a:hover {
+    color: #454545;
+}
+
+#ort-img {
+    grid-column: 3;
+    width: 100%;
+}
+
+#skills {
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+#contact-grid {
+    display: grid;
+    grid-template-columns: 49% 2% 49%;
+    grid-template-rows: auto;
+}
+
+#contact img {
+    height: 120px;
+    padding-bottom: 1vw;
+}
+
+#contact-email {
+    grid-column: 1;
+}
+
+#contact-github {
+    grid-column: 3;
+}
+
+.contact-box {
+    display: flex;
+    flex-direction: column;
+    place-self: center;
+    justify-items: center;
+}
+
+.contact-box img {
+    filter: invert(57%) sepia(9%) saturate(3040%) hue-rotate(354deg) brightness(90%) contrast(87%);
+}
+
+.contact-box:hover img {
+    filter: invert(25%) sepia(0%) saturate(466%) hue-rotate(147deg) brightness(97%) contrast(87%);
+}
+
+.contact-box p {
+    color: rgba(180.00000447034836, 126.00000008940697, 54.00000058114529, 1);
+}
+
+.contact-box:hover p {
+    color: #454545;
+}
+
+#footer {
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    font-size: medium;
 }
